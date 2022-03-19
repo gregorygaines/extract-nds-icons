@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+html, body {
+    font-family: 'Open Sans', sans-serif !important;
+    background-color: #9921e8;
+    background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
+    height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+p {
+    color: #0D1321;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.upload-card {
+    margin-top: 40px !important;
+    width: 25rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header {
+    margin-top: 10px !important;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.4;
 }
 
-.App-link {
-  color: #61dafb;
+.instructions {
+    width: 600px;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-left {
+    text-align: left;
+}
+
+.download-button {
+    width: 100%;
+}
+
+.scale-label {
+    font-size: 14px;
+}
+
+.creator:hover {
+    color: #ffc107 !important;
 }
