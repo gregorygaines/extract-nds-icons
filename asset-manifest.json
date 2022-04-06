@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/extract-nds-icons/static/css/main.062dd97d.css",
+    "main.js": "/extract-nds-icons/static/js/main.b0685ed2.js",
+    "index.html": "/extract-nds-icons/index.html",
+    "main.062dd97d.css.map": "/extract-nds-icons/static/css/main.062dd97d.css.map",
+    "main.b0685ed2.js.map": "/extract-nds-icons/static/js/main.b0685ed2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.062dd97d.css",
+    "static/js/main.b0685ed2.js"
+  ]
+}
