@@ -153,7 +153,7 @@ function App() {
             <nav className="flex p-5 bg-gray-800">
                 <div className="container">
                      <span className="inline-flex items-center">
-                    <img className="m-2 w-6 items-center" src="/icon.png" alt="pokeball logo"/>
+                    <img className="m-2 w-6 items-center" src={`${process.env.PUBLIC_URL}/icon.png`} alt="pokeball logo"/>
 
                     <p className="text-white font-bold text-xl">
                         NDS Icon Extractor
