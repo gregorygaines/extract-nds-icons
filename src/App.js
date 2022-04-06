@@ -174,7 +174,7 @@ function App() {
                     </header>
 
                     <div className="text-center mx-auto upload-card my-10 text-white">
-                        <div className="p-4 bg-white rounded-lg w-96 shadow-xl mx-auto bg-gray-800">
+                        <div className="p-4 rounded-lg w-96 shadow-xl mx-auto bg-gray-800">
                             <div className="">
                                 <h5 className="text-xl mb-5 mt-3 text-center font-bold">Upload your ROM</h5>
 
