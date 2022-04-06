@@ -1,45 +1,52 @@
-html, body {
+body {
     font-family: 'Open Sans', sans-serif !important;
-    background-color: #9921e8;
-    background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
-    height: 100%;
+    background-color: #111827;
+    /*background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);*/
+    min-height: 100%;
 }
 
-p {
-    color: #0D1321;
-}
+/*p {*/
+/*    color: #0D1321;*/
+/*}*/
 
 .upload-card {
-    margin-top: 40px !important;
     width: 25rem;
 }
 
-.header {
-    margin-top: 10px !important;
-    font-size: 3rem;
-    font-weight: 800;
-    line-height: 1.4;
-}
+/*footer {*/
+/*    bottom: 0;*/
+/*}*/
+
+/*.header {*/
+/*    margin-top: 10px !important;*/
+/*    font-size: 3rem;*/
+/*    font-weight: 800;*/
+/*    line-height: 1.4;*/
+/*}*/
 
 .instructions {
-    width: 600px;
     line-height: 1.7;
     letter-spacing: 1px;
     font-size: 18px;
+    font-weight: 500;
 }
 
-.text-left {
-    text-align: left;
-}
+/*.disabled {*/
+/*    background-color: #888888;*/
+/*}*/
 
-.download-button {
-    width: 100%;
-}
+/*.text-left {*/
+/*    text-align: left;*/
+/*}*/
 
-.scale-label {
-    font-size: 14px;
-}
+/*.download-button {*/
+/*    width: 100%;*/
+/*}*/
 
-.creator:hover {
-    color: #ffc107 !important;
-}
+/*.scale-label {*/
+/*    font-size: 14px;*/
+/*}*/
+
+/*.creator:hover {*/
+/*    color: #ffc107 !important;*/
+/*}*/

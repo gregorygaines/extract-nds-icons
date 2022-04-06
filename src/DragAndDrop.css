@@ -7,9 +7,6 @@
     border-radius: 5px;
 }
 
-.upload:hover {
-    background-color: #D3D3D3;;
-}
 
 .plus-icon {
     width: 80px;
@@ -25,8 +22,4 @@
     width: 100%;
     cursor: pointer;
     opacity: 0;
-}
-
-.pointer {
-    cursor: pointer;
 }

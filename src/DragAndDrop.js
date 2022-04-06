@@ -2,12 +2,6 @@ import React from "react";
 import "./DragAndDrop.css";
 
 const DragAndDrop = ({onUpload, acceptedFileExtensions}) => {
-    const handleOnDrag = (e) => {
-        console.log("Handle on drg");
-        e.preventDefault();
-        e.stopPropagation();
-    };
-
     const handleFileDragAndDrop = async (e) => {
         e.preventDefault();
         e.stopPropagation();
@@ -37,14 +31,14 @@ const DragAndDrop = ({onUpload, acceptedFileExtensions}) => {
     };
 
     return (
-        <div className="upload d-flex flex-column justify-content-center text-center position-relative" onDrop={handleFileDragAndDrop} onDrag={handleOnDrag}>
+        <div className="upload relative flex flex-col hover:bg-gray-900 justify-content-center py-10" onDrop={handleFileDragAndDrop}>
             <svg className="plus-icon mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                  xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                       d="M12 6v6m0 0v6m0-6h6m-6 0H6"/>
             </svg>
-            <p className="fw-bold mb-0">Drag & drop</p>
-            <p>or Browse</p>
+            <p className="text-sm">Drag & drop</p>
+            <p className="text-sm">or Browse</p>
             <input className="file-input pointer" type="file" accept={acceptedFileExtensions} onChange={handleFileUpload} />
         </div>
     );
